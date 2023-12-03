@@ -218,6 +218,11 @@
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
+
+        combo_equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <19 20>;
+        };
     };
 
     keymap {
