@@ -129,7 +129,7 @@
         };
 
         combo_esc {
-            bindings = <&kp LC(Y)>;
+            bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
             layers = <0>;
             timeout-ms = <18>;
