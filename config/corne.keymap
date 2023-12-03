@@ -261,10 +261,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE   &kp EXCLAMATION  &kp AT_SIGN    &kp HASH                 &kp DOLLAR        &kp PERCENT         &kp CARET          &kp AMPERSAND   &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&kp DELETE  &kp LSHIFT       &kp LEFT_GUI   &kp LEFT_ALT             &kp LCTRL         &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW          &kp RIGHT              &trans
-&kp LSHFT   &kp LS(LCTRL)    &kp LG(LCTRL)  &kp LS(LC(PRINTSCREEN))  &kp LC(LEFT_ALT)  &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP           &kp END                &mt RIGHT_SHIFT RETURN
-                                            &kp LGUI                 &trans            &kp SPACE           &kp RET            &mo 2           &kp RALT
+&kp TILDE   &kp EXCLAMATION  &kp AT_SIGN    &kp HASH                 &kp DOLLAR        &kp PERCENT         &kp CARET           &kp AMPERSAND   &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
+&kp DELETE  &kp LSHIFT       &kp LEFT_GUI   &kp LEFT_ALT             &kp LCTRL         &kp LEFT_BRACKET    &kp RIGHT_BRACKET   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW          &kp RIGHT              &trans
+&kp LSHFT   &kp LS(LCTRL)    &kp LG(LCTRL)  &kp LS(LC(PRINTSCREEN))  &kp LC(LEFT_ALT)  &kp LEFT_BRACE      &kp RIGHT_BRACE     &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP           &kp END                &kp RETURN
+                                            &kp LGUI                 &trans            &kp SPACE           &kp K_CONTEXT_MENU  &mo 2           &kp RALT
             >;
         };
 
