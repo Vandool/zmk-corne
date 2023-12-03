@@ -50,6 +50,7 @@
             flavor = "hold-preferred";
             retro-tap;
             hold-trigger-key-positions = <36 37 38 39 40 41>;
+            hold-trigger-on-release;
         };
 
         tmtr: tmtr {
@@ -214,6 +215,8 @@
         combo_equals {
             bindings = <&kp EQUAL>;
             key-positions = <19 20>;
+            timeout-ms = <18>;
+            require-prior-idle-ms = <150>;
         };
     };
 
