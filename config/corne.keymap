@@ -67,6 +67,19 @@
             hold-trigger-key-positions = <39 40 41 36 37 38>;
             retro-tap;
         };
+
+        ltl: ltl {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LTL";
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <(-1)>;
+            flavor = "hold-preferred";
+            hold-trigger-key-positions = <39 40 41 36 37 38>;
+            retro-tap;
+            bindings = <&lt>, <&kp>;
+        };
     };
 
     combos {
@@ -254,7 +267,7 @@
 &kp TAB           &kp Q                 &kp W             &kp F             &kp P              &kp B                        &kp J                                 &kp L          &kp U                  &kp Y             &kp SEMICOLON  &kp BSPC
 &kp DELETE        &kp A                 &hrml LEFT_GUI R  &hrml LEFT_ALT S  &hrml LCTRL T      &kp G                        &kp M                                 &hrmr RCTRL N  &hrml LEFT_ALT E       &hrmr LEFT_GUI I  &kp O          &kp SQT
 &mt LSHFT ESCAPE  &hrml LS(LEFT_GUI) Z  &kp X             &kp C             &hrml LS(LCTRL) D  &kp V                        &kp K                                 &kp H          &hrmr RIGHT_ALT COMMA  &kp DOT           &kp FSLH       &mt LEFT_SHIFT RET
-                                                          &kp LGUI          &lt 1 UNDERSCORE   &tmtl LS(LA(LCTRL)) SPACE    &tmtr LS(LA(LC(LEFT_GUI))) BACKSPACE  &mo 2          &kp DOUBLE_QUOTES
+                                                          &kp LGUI          &ltl 1 UNDERSCORE  &tmtl LS(LA(LCTRL)) SPACE    &tmtr LS(LA(LC(LEFT_GUI))) BACKSPACE  &mo 2          &kp DOUBLE_QUOTES
             >;
         };
 
