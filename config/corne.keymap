@@ -54,6 +54,7 @@
             flavor = "hold-preferred";
             retro-tap;
             hold-trigger-key-positions = <36 37 38 39 40 41>;
+            hold-trigger-on-release;
         };
 
         tmtr: tmtr {
@@ -68,6 +69,7 @@
             flavor = "hold-preferred";
             hold-trigger-key-positions = <39 40 41 36 37 38>;
             retro-tap;
+            hold-trigger-on-release;
         };
 
         ltl: ltl {
