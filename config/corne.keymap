@@ -185,14 +185,14 @@
         combo_rb {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <21 22>;
-            timeout-ms = <18>;
+            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
         };
 
         combo_lc {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <32 33>;
-            timeout-ms = <18>;
+            timeout-ms = <35>;
             require-prior-idle-ms = <150>;
             layers = <0>;
         };
