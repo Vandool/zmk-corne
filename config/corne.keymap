@@ -268,10 +268,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB           &kp Q  &kp W                 &kp F                 &kp P              &kp B                        &kp J                                 &kp L              &kp U                  &kp Y               &kp SEMICOLON  &kp BSPC
-&kp DELETE        &kp A  &hrml LEFT_GUI R      &hrml LEFT_ALT S      &hrml LCTRL T      &hrml LEFT_SHIFT G           &hrmr M M                             &hrmr RCTRL N      &hrml LEFT_ALT E       &hrmr LEFT_GUI I    &kp O          &kp SQT
-&mt LSHFT ESCAPE  &kp Z  &hrml LS(LEFT_GUI) X  &hrml LS(LEFT_ALT) C  &hrml LS(LCTRL) D  &kp V                        &kp K                                 &hrmr RS(LCTRL) H  &hrmr RIGHT_ALT COMMA  &hrmr RS(LALT) DOT  &kp FSLH       &mt LEFT_SHIFT RET
-                                               &kp LGUI              &lt 1 UNDER        &tmtl LS(LA(LCTRL)) SPACE    &tmtr LS(LA(LC(LEFT_GUI))) BACKSPACE  &mo 2              &kp DOUBLE_QUOTES
+&kp TAB           &kp Q             &kp W                 &kp F              &kp P           &kp B                        &kp J                                 &kp L               &kp U                  &kp Y               &kp SEMICOLON             &kp BSPC
+&kp DELETE        &hrml LGUI A      &hrml LEFT_ALT R      &hrml LCTRL S      &hrml LSHIFT T  &kp G                        &kp M                                 &hrmr LEFT_SHIFT N  &hrml LCTRL E          &hrmr LEFT_ALT I    &hrml LGUI O              &kp SQT
+&mt LSHFT ESCAPE  &hrml LS(LGUI) Z  &hrml LS(LEFT_ALT) X  &hrml LS(LCTRL) C  &kp D           &kp V                        &kp K                                 &kp H               &hrmr LS(LCTRL) COMMA  &hrmr RS(LALT) DOT  &hrml LS(LEFT_GUI) SLASH  &mt LEFT_SHIFT RET
+                                                          &kp LGUI           &lt 1 UNDER     &tmtl LS(LA(LCTRL)) SPACE    &tmtr LS(LA(LC(LEFT_GUI))) BACKSPACE  &mo 2               &kp DOUBLE_QUOTES
             >;
         };
 
