@@ -269,8 +269,8 @@
 
             bindings = <
 &kp TAB           &kp Q             &kp W                 &kp F              &kp P           &kp B                        &kp J                                 &kp L               &kp U                  &kp Y               &kp SEMICOLON             &kp BSPC
-&kp DELETE        &hrml LGUI A      &hrml LEFT_ALT R      &hrml LCTRL S      &hrml LSHIFT T  &kp G                        &kp M                                 &hrmr LEFT_SHIFT N  &hrml LCTRL E          &hrmr LEFT_ALT I    &hrml LGUI O              &kp SQT
-&mt LSHFT ESCAPE  &hrml LS(LGUI) Z  &hrml LS(LEFT_ALT) X  &hrml LS(LCTRL) C  &kp D           &kp V                        &kp K                                 &kp H               &hrmr LS(LCTRL) COMMA  &hrmr RS(LALT) DOT  &hrml LS(LEFT_GUI) SLASH  &mt LEFT_SHIFT RET
+&kp DELETE        &hrml LGUI A      &hrml LEFT_ALT R      &hrml LCTRL S      &hrml LSHIFT T  &kp G                        &kp M                                 &hrmr LEFT_SHIFT N  &hrmr LCTRL E          &hrmr LEFT_ALT I    &hrmr LGUI O              &kp SQT
+&mt LSHFT ESCAPE  &hrml LS(LGUI) Z  &hrml LS(LEFT_ALT) X  &hrml LS(LCTRL) C  &kp D           &kp V                        &kp K                                 &kp H               &hrmr LS(LCTRL) COMMA  &hrmr RS(LALT) DOT  &hrmr LS(LEFT_GUI) SLASH  &mt LEFT_SHIFT RET
                                                           &kp LGUI           &lt 1 UNDER     &tmtl LS(LA(LCTRL)) SPACE    &tmtr LS(LA(LC(LEFT_GUI))) BACKSPACE  &mo 2               &kp DOUBLE_QUOTES
             >;
         };
