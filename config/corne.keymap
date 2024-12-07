@@ -244,10 +244,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans     &kp LC(LS(G))  &kp K_FIND  &kp LC(G)  &kp LC(X)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(A)  &kp K_UNDO     &kp K_REDO  &trans     &kp LC(C)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans         &trans      &trans     &kp LC(V)    &trans  &trans  &trans  &trans  &trans  &trans
-                                  &trans      &trans     &trans       &trans  &trans  &trans
+&trans      &trans     &kp LC(LS(G))  &kp K_FIND  &kp LC(G)  &kp LC(X)    &trans  &trans  &trans  &trans  &trans  &trans
+&caps_word  &kp LC(A)  &kp K_UNDO     &kp K_REDO  &trans     &kp LC(C)    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans     &trans         &trans      &trans     &kp LC(V)    &trans  &trans  &trans  &trans  &trans  &trans
+                                      &trans      &trans     &trans       &trans  &trans  &trans
             >;
         };
     };
