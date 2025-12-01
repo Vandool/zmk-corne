@@ -189,9 +189,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB           &kp Q             &hrml RIGHT_ALT W     &kp F              &kp P                         &kp B                        &kp J                              &kp L                  &kp U                  &hrmr RIGHT_ALT Y   &kp SEMICOLON             &kp BSPC
-&kp DELETE        &hrml LGUI A      &hrml LEFT_ALT R      &hrml LCTRL S      &hrml LSHIFT T                &kp G                        &kp M                              &hrmr LEFT_SHIFT N     &hrmr LCTRL E          &hrmr RIGHT_ALT I   &hrmr LGUI O              &kp SQT
-&mt LSHFT ESCAPE  &hrml LS(LGUI) Z  &hrml LS(LEFT_ALT) X  &hrml LS(LCTRL) C  &hrml LS(LA(LC(LEFT_GUI))) D  &kp V                        &kp K                              &hrmr LS(LA(LCTRL)) H  &hrmr LS(LCTRL) COMMA  &hrmr RS(LALT) DOT  &hrmr LS(LEFT_GUI) SLASH  &mt LEFT_SHIFT RET
+&kp TAB           &kp Q             &hrml RIGHT_ALT W     &kp F              &kp P                         &kp B                        &kp J                              &kp L                  &kp U                  &hrmr RIGHT_ALT Y        &kp SEMICOLON             &kp BSPC
+&kp DELETE        &hrml LGUI A      &hrml LEFT_ALT R      &hrml LCTRL S      &hrml LSHIFT T                &kp G                        &kp M                              &hrmr LEFT_SHIFT N     &hrmr LCTRL E          &hrmr RIGHT_ALT I        &hrmr LGUI O              &kp SQT
+&mt LSHFT ESCAPE  &hrml LS(LGUI) Z  &hrml LS(LEFT_ALT) X  &hrml LS(LCTRL) C  &hrml LS(LA(LC(LEFT_GUI))) D  &kp V                        &kp K                              &hrmr LS(LA(LCTRL)) H  &hrmr LS(LCTRL) COMMA  &hrmr RS(RIGHT_ALT) DOT  &hrmr LS(LEFT_GUI) SLASH  &mt LEFT_SHIFT RET
                                                           &kp LGUI           &lt 1 UNDER                   &tmtl LS(LA(LCTRL)) SPACE    &tmtr LS(LA(LG(LCTRL))) BACKSPACE  &mo 2                  &lt 4 DOUBLE_QUOTES
             >;
         };
@@ -228,10 +228,10 @@
 
         tri_layer {
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &kp PRINTSCREEN  &bt BT_SEL 3    &trans             &trans            &trans  &trans   &bt BT_DISC 4  &bt BT_CLR_ALL
-&kp KP_NUM      &kp CAPSLOCK    &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL        &bt BT_SEL 4    &kp C_MUTE         &kp C_PLAY_PAUSE  &trans  &kp INS  &trans         &trans
-&kp LEFT_SHIFT  &kp SCROLLLOCK  &trans        &trans        &trans           &trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans  &trans   &trans         &kp RETURN
-                                              &trans        &trans           &trans          &trans             &trans            &trans
+&bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1   &bt BT_SEL 2  &kp PRINTSCREEN  &bt BT_SEL 3    &trans             &trans            &trans  &trans   &bt BT_DISC 4  &bt BT_CLR_ALL
+&kp KP_NUM      &kp CAPSLOCK    &kp LEFT_GUI   &kp LEFT_ALT  &kp LCTRL        &bt BT_SEL 4    &kp C_MUTE         &kp C_PLAY_PAUSE  &trans  &kp INS  &trans         &trans
+&kp LEFT_SHIFT  &kp SCROLLLOCK  &kp RIGHT_ALT  &trans        &trans           &trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans  &trans   &trans         &kp RETURN
+                                               &trans        &trans           &trans          &trans             &trans            &trans
             >;
         };
 
