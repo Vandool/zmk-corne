@@ -90,14 +90,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_magic_caps {
-            bindings = <&caps_word>;
-            key-positions = <35 24>;
-            layers = <0>;
-            require-prior-idle-ms = <150>;
-            timeout-ms = <35>;
-        };
-
         combos_shutdown {
             bindings = <&kp C_POWER>;
             key-positions = <0 11>;
